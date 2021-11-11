@@ -1,12 +1,24 @@
-import "./App.css";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
-import Home from "./components/home";
+import "./style/App.css";
+import Home from "./routes/home";
+import Navbar from "./components/navbar";
+import About from "./routes/about";
+import DisplayWindow from "./routes/display-window";
+import NotFound from './routes/not-found'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Router>
+      <Navbar />
+
+      <Routes>
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/vetrina' element={<DisplayWindow />}/>
+        <Route path='*' element={<NotFound />}/>
+      </Routes>
+
+    </Router>
   );
 }
 

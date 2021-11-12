@@ -8,8 +8,19 @@
 
 .form-component {
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .carusel-container {
     margin-top: 200px;
 }
+
+.page-footer{
+    background-color: dimgrey;
+    color: white;
+}
+.page-footer a{
+    color: white;
+
+}
+

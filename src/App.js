@@ -4,7 +4,8 @@ import Navbar from "./components/navbar";
 import About from "./routes/about";
 import DisplayWindow from "./routes/display-window";
 import NotFound from './routes/not-found'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path='/vetrina' element={<DisplayWindow />}/>
         <Route path='*' element={<NotFound />}/>
       </Routes>
+
+      <Footer />
 
     </Router>
   );

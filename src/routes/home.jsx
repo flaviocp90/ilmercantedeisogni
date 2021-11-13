@@ -3,7 +3,6 @@ import '../style/home.css'
 import HomeIntro from '../components/home-intro';
 import HomeCarousel from '../components/home-carousel';
 import HomeForm from '../components/home-form';
-import HomeFooter from '../components/home-footer';
 
 const Home = () => {
     return (
@@ -11,7 +10,6 @@ const Home = () => {
             <HomeIntro />
             <HomeCarousel />
             <HomeForm />
-            <HomeFooter />
         </div>
 
 

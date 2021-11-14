@@ -16,7 +16,7 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/about' element={<About />}/>
         <Route path='/vetrina' element={<DisplayWindow />}/>
-        <Route path='*' element={<NotFound />}/>
+        <Route path='*' exact={true} element={<NotFound />}/>
       </Routes>
 
       <Footer />

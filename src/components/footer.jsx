@@ -10,7 +10,6 @@ const Footer = () => {
     className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
   >
     <div className="me-5 flex justify-content-center">
-      <span>Get connected with us on social networks:</span>
     </div>
 
   </section>

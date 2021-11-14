@@ -1,12 +1,3 @@
-body {
-    height: 100%;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    -ms-flex-pack: center;
-    -webkit-box-pack: center;
-  
-}
-
 .cover-container{
     height: 700px;
 }

@@ -1,6 +1,9 @@
 import React from 'react';
 import '../style/home.css';
 import { Carousel } from 'react-bootstrap';
+import home1 from '../img/home1.JPG';
+import home2 from '../img/home2.JPG';
+import home3 from '../img/home3.JPG';
 
 const HomeCarousel = () => {
     return (
@@ -8,7 +11,7 @@ const HomeCarousel = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 mw-50"
-      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+      src={home1}
       alt="First slide"
     />
     <Carousel.Caption>
@@ -19,7 +22,7 @@ const HomeCarousel = () => {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+      src={home2}
       alt="Second slide"
     />
 
@@ -31,7 +34,7 @@ const HomeCarousel = () => {
   <Carousel.Item>
     <img
       className="d-block w-100 mw-50"
-      src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+      src={home3}
       alt="Third slide"
     />
 

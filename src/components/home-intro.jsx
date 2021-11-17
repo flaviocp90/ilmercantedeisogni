@@ -2,6 +2,7 @@ import React from 'react';
 import '../style/home.css'
 import articoliDaRegalo from '../img/head_articoli_da_regalo.JPG';
 
+
 const HomeIntro = () => {
     return (
         <div className="container marketing">

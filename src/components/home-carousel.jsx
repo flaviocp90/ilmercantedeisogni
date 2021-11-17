@@ -5,6 +5,7 @@ import home1 from '../img/home1.JPG';
 import home2 from '../img/home2.JPG';
 import home3 from '../img/home3.JPG';
 
+
 const HomeCarousel = () => {
     return (
 <Carousel>

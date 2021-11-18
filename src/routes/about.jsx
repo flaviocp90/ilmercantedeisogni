@@ -1,5 +1,8 @@
 import React from "react";
 import "../style/about.css";
+import about1 from '../img/about1.JPG';
+import about2 from '../img/about2.JPG';
+import about3 from '../img/about3.JPG';
 
 
 const About = () => {
@@ -9,20 +12,16 @@ const About = () => {
       <div className="row featurette">
         <div className="col-md-7">
           <h2 className="featurette-heading">
-            First featurette heading.
-            <span className="text-muted">It'll blow your mind.</span>
+            Da dove siamo partiti
           </h2>
           <p className="lead">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil
-            ipsam mollitia impedit alias doloribus ex adipisci consectetur
-            laboriosam quod officiis nisi accusamus ea, consequatur provident
-            eveniet accusantium cupiditate fugit unde!
+            Il Mercante dei Sogni nasce nel 1989 con Giacomo e Raffaella i quali si avvicinano per la prima volta al mondo del commercio. Il punto vendita nasce inizialmente come negozio di oggettistica e articoli da regalo ma con il passare del tempo l’attenzione viene rivolta anche al mondo delle cerimonie così da far diventare le bomboniere e quindi anche la realizzazione della confezione, uno dei punti di forza dell’esercizio.
           </p>
         </div>
         <div className="col-md-5">
           <img
             className="featurette-image img-fluid mx-auto"
-            src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+            src={about1}
             alt=""
           />
         </div>
@@ -31,20 +30,16 @@ const About = () => {
       <div className="row featurette">
         <div className="col-md-7 order-md-2">
           <h2 className="featurette-heading">
-            Oh yeah, it's that good.{" "}
-            <span className="text-muted">See for yourself.</span>
+            La nostra misson
           </h2>
           <p className="lead">
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-            ligula porta felis euismod semper. Praesent commodo cursus magna,
-            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-            commodo.
+            Da noi non trovi solo complementi di arredo ma anche bigiotteria, soprattutto quella realizzata con pietre preziose.
           </p>
         </div>
         <div className="col-md-5 order-md-1">
           <img
             className="featurette-image img-fluid mx-auto"
-            src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+            src={about2}
             alt=""
           />
         </div>
@@ -54,19 +49,16 @@ const About = () => {
       <div className="row featurette">
         <div className="col-md-7">
           <h2 className="featurette-heading">
-            And lastly, this one. <span className="text-muted">Checkmate.</span>
+            Dove siamo arrivati
           </h2>
           <p className="lead">
-            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id
-            ligula porta felis euismod semper. Praesent commodo cursus magna,
-            vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
-            commodo.
+            Oggi, Il Mercante dei Sogni, sito a torrette di Mercogliano è sempre più attento ai bisogni dei suoi clienti, pronto ad accompagnarli nelle loro scelte. Punto di forza è sicuramente la cura del particolare, seguiamo il cliente dal giorno 1 fino a quello della cerimonia.
           </p>
         </div>
         <div className="col-md-5">
           <img
             className="featurette-image img-fluid mx-auto"
-            src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9ncmFwaGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80"
+            src={about3}
             alt=""
           />
         </div>

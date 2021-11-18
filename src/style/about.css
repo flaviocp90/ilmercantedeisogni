@@ -8,3 +8,10 @@
     letter-spacing: -.05rem;
   }
   
+  .featurette-image{
+    border-radius: 26px;
+  }
+
+  .featurette-heading{
+    font-weight: bold;
+  }
